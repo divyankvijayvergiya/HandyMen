@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Providerlogin" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:text="This is only for Service providers. Providers can create their accounts to serve their services. By Login, Providers can Update their Profile"
+        android:textColor="@color/maroom"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/a"
+        android:layout_below="@+id/a"
+        android:layout_marginTop="33dp"
+        android:text="Password"
+        android:textStyle="bold"
+        android:textColor="@color/maroom"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="40dp"
+        android:text="Username"
+        android:textStyle="bold"
+        android:textColor="@color/maroom"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fild"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/a"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/a"
+        android:layout_alignBottom="@+id/a"
+        android:layout_alignLeft="@+id/pass"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxWidth="20dp" />
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/here"
+        android:layout_alignLeft="@+id/login"
+        android:text="Home"
+         android:textColor="@color/maroom"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fild"
+        android:layout_alignRight="@+id/pass"
+        android:layout_below="@+id/fild"
+        android:layout_marginTop="57dp"
+        android:background="@color/maroom"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/main"
+        android:layout_alignBottom="@+id/main"
+        android:layout_centerHorizontal="true"
+        android:text="Exit"
+        android:textColor="@color/maroom"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/login"
+        android:text="Signup"
+        android:textColor="@color/maroom"
+        android:textSize="22sp" />
+
+</RelativeLayout>

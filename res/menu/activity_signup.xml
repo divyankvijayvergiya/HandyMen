@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtState"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faebd7"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/signdescrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Here you have to register yourself as a service provider. By signup process you will be a member of service providers and can continue with your services."
+         />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_below="@+id/signdescrp"
+        android:layout_marginTop="46dp"
+        android:text="User name" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="16dp"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/txServe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:text="Confirm pass" />
+
+    <TextView
+        android:id="@+id/txLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/txServe"
+        android:layout_marginTop="22dp"
+        android:text="Email id" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txServe"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/fees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contactno"
+        android:layout_below="@+id/contactno"
+        android:ems="10"
+        android:inputType="phone" />
+
+    
+
+    <EditText
+        android:id="@+id/contactno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contactno"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pservice"
+        android:text="" />
+
+    <Spinner
+        android:id="@+id/pstate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txLoc"
+        android:layout_below="@+id/txLoc"
+        android:layout_toLeftOf="@+id/textview5" />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pservice"
+        android:layout_alignLeft="@+id/contactno"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contactno"
+        android:layout_alignLeft="@+id/confirmPass"
+        android:layout_alignRight="@+id/textview5" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pstate"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submit"
+        android:layout_alignLeft="@+id/pstate"
+        android:layout_marginBottom="38dp"
+        android:text="Fees" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:text="Contact no" />
+
+    <Spinner
+        android:id="@+id/pservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignLeft="@+id/pstate" />
+
+</RelativeLayout>

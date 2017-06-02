@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Displayprofile" >
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        
+        android:textColor="@color/cyan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/main"
+        android:layout_alignRight="@+id/main"
+        android:layout_below="@+id/main"
+        android:layout_marginTop="18dp"
+   
+        android:textColor="@color/cyan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/exit"
+        android:layout_alignRight="@+id/exit"
+        android:layout_below="@+id/exit"
+        android:layout_marginTop="18dp"
+        
+        android:textColor="@color/cyan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txLoc"
+        android:layout_alignRight="@+id/txLoc"
+        android:layout_below="@+id/txLoc"
+        android:layout_marginTop="18dp"
+     
+        android:textColor="@color/cyan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="18dp"
+        
+        android:textColor="@color/cyan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="18dp"
+        
+        android:textColor="@color/cyan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="18dp"
+        
+        android:textColor="@color/cyan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="18dp"
+        
+        android:textColor="@color/cyan"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Profile..."
+        android:textColor="@color/peru"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/maroom"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</RelativeLayout>

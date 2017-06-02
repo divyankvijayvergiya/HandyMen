@@ -1,0 +1,19 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="cyan">#00ffff</color>
+    <color name="peru">#CD853F</color>
+    <color name="maroom">#800000</color>
+    <color name="sadlebrown">#8b4513</color>
+
+</resources>
